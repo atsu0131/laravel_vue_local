@@ -5,7 +5,7 @@
               <div class="card-header">Index Component</div>
 
               <div class="card-body">
-                  I'm an Index component.
+                  I'm an Index component.<h1>{{ $store.state.message }}</h1>
               </div>
           </div>
       </div>
